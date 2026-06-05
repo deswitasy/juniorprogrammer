@@ -20,7 +20,7 @@ public class Player2Controller : MonoBehaviour
     void Update()
     {
         // Get the player input
-        horizontalInput = Input.GetAxis("Horizontal2");
+        horizontalInput = Input.GetAxis("horizontal2");
         forwardInput = Input.GetAxis("Vertical2");
 
         // Move the vehicle forward
